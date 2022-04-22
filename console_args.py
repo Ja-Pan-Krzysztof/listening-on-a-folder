@@ -31,12 +31,3 @@ def main():
     args = arg_parser.parse_args()
 
     return args
-
-
-'''    if not os.path.isdir(path_input):
-        print('Nie podano ścieżki :(')
-        sys.exit()
-
-    print('\n'.join(os.listdir(path_input)))
-'''
-

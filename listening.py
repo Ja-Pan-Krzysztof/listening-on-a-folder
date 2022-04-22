@@ -13,7 +13,6 @@ class Listening:
 
     @staticmethod
     def copy(path1, path2):
-        print('Działa')
         copytree(path1, path2, dirs_exist_ok=True)
 
     def copy_to_folder(self):
@@ -72,7 +71,7 @@ def main():
             listening.listening_on_folder()
 
         case _:
-            print('Ale z ciebie idiota jest :)')
+            print('That\'s  not good ;)')
 
 
 if __name__ == '__main__':
